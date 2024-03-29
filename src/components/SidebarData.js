@@ -1,11 +1,12 @@
 import React from "react";
 import HomeIcon from "@mui/icons-material/Home";
-import AttachEmailIcon from "@mui/icons-material/AttachEmail";
+import MailIcon from "@mui/icons-material/Mail";
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import AddCardIcon from "@mui/icons-material/AddCard";
 import BackupIcon from "@mui/icons-material/Backup";
 import SettingsIcon from "@mui/icons-material/Settings";
+import XIcon from "@mui/icons-material/X";
 
 export const SidebarData = [
   {
@@ -15,7 +16,7 @@ export const SidebarData = [
   },
   {
     title: "メール",
-    icon: <AttachEmailIcon />,
+    icon: <MailIcon />,
     link: "/mail",
   },
   {
@@ -42,5 +43,10 @@ export const SidebarData = [
     title: "詳細設定",
     icon: <SettingsIcon />,
     link: "/rocket",
+  },
+  {
+    title: "X(twitter)",
+    icon: <XIcon />,
+    link: "/x",
   },
 ];
